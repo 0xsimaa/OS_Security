@@ -1,3 +1,5 @@
+### Why Study Operating Systems?
+
 Operating systems are the foundation of all computing systems. Every application you use—whether it’s a browser, game, or cybersecurity tool—runs on top of an OS.
 
 From a cybersecurity perspective, this becomes even more important because:
