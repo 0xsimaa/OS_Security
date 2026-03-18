@@ -45,9 +45,7 @@ From the system’s point of view, the OS acts as:
 
 The OS must balance fairness, efficiency, and performance.
 
----
-
-## 4. Computer System Organization
+### 4. Computer System Organization
 
 A computer system consists of:
 
@@ -63,9 +61,7 @@ A key concept here is **concurrency**:
 
 The OS manages this competition to prevent conflicts and inefficiency.
 
----
-
-## 5. System Boot Process
+### 5. System Boot Process
 
 When a computer starts, it does not immediately load the OS.
 
@@ -78,9 +74,7 @@ Instead:
 
 This bootstrap program is stored in ROM/EPROM and is essential for system startup.
 
----
-
-## 6. Interrupts
+### 6. Interrupts
 
 Interrupts are a central concept in operating systems.
 
@@ -99,9 +93,7 @@ An interrupt is a signal sent to the CPU indicating that an event needs immediat
 - OS must save and restore CPU state during interrupts
 - Modern OS are **interrupt-driven**, meaning they rely heavily on this mechanism
 
----
-
-## 7. I/O System Structure
+### 7. I/O System Structure
 
 Each I/O device is controlled by a **device controller**, which has:
 
