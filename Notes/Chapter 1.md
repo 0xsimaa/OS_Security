@@ -45,7 +45,7 @@ From the system’s point of view, the OS acts as:
 
 The OS must balance fairness, efficiency, and performance.
 
-### 4. Computer System Organization
+### Computer System Organization
 
 A computer system consists of:
 
@@ -61,7 +61,7 @@ A key concept here is **concurrency**:
 
 The OS manages this competition to prevent conflicts and inefficiency.
 
-### 5. System Boot Process
+### System Boot Process
 
 When a computer starts, it does not immediately load the OS.
 
@@ -74,7 +74,7 @@ Instead:
 
 This bootstrap program is stored in ROM/EPROM and is essential for system startup.
 
-### 6. Interrupts
+### Interrupts
 
 Interrupts are a central concept in operating systems.
 
@@ -93,7 +93,7 @@ An interrupt is a signal sent to the CPU indicating that an event needs immediat
 - OS must save and restore CPU state during interrupts
 - Modern OS are **interrupt-driven**, meaning they rely heavily on this mechanism
 
-### 7. I/O System Structure
+### I/O System Structure
 
 Each I/O device is controlled by a **device controller**, which has:
 
@@ -113,3 +113,223 @@ The OS interacts with devices through **device drivers**, which act as an abstra
     - CPU involvement is minimal
     - Only one interrupt per data block
     - Used in high-speed devices
+
+### Storage Structure
+
+### Main Memory:
+
+- Directly accessible by CPU
+- Fast but volatile
+- Typically RAM (DRAM)
+
+### Secondary Storage:
+
+- Non-volatile
+- Used for long-term storage
+- Examples: HDD, SSD
+
+### Storage Hierarchy
+
+Storage is organized based on:
+
+- Speed    
+- Cost
+- Capacity
+
+Faster storage:
+
+- More expensive
+- Smaller in size
+
+Slower storage:
+
+- Cheaper
+- Larger capacity
+
+### Caching:
+
+Frequently used data is stored in faster storage (cache) to improve performance.  
+This introduces complexity in maintaining data consistency.
+
+### Multiprogramming and Multitasking
+
+### Multiprogramming:
+
+- Multiple jobs are kept in memory
+- CPU switches when one job is waiting (e.g., for I/O)
+- Improves CPU utilization
+
+### Multitasking (Time-sharing):
+
+- CPU switches rapidly between processes
+- Provides interactive computing
+- Users feel as if tasks run simultaneously
+
+This requires efficient scheduling and memory management.
+
+### Dual Mode Operation
+
+To protect the system, OS operates in two modes:
+
+- **User Mode**: Limited access
+- **Kernel Mode**: Full access to hardware
+
+### Important Concepts:
+
+- Mode switching occurs via **system calls**
+- Some instructions are **privileged** and only allowed in kernel mode
+
+This prevents user programs from directly accessing critical resources.
+
+### Process Management
+
+A **process** is a program in execution.
+
+### Key Differences:
+
+- Program → passive
+- Process → active
+
+### OS Responsibilities:
+
+- Create and terminate processes
+- Schedule execution
+- Handle synchronization and communication
+- Manage deadlocks
+
+### Types:
+
+- Single-threaded (one execution flow)
+- Multi-threaded (multiple execution flows)
+
+### Memory Management
+
+For a program to execute:
+
+- Instructions must be in memory
+- Data must be available in memory
+
+### OS Responsibilities:
+
+- Track memory usage
+- Allocate and deallocate memory
+- Move processes in and out of memory
+
+Efficient memory management directly impacts system performance.
+
+### File System Management
+
+The OS provides a structured way to store and access data.
+
+### Responsibilities:
+
+- Create/delete files and directories
+- Provide access control
+- Map logical files to physical storage
+
+The OS hides hardware complexity and provides a simple interface for users.
+
+### Mass Storage Management
+
+Handles long-term storage using disks.
+
+### Key Functions:
+
+- Mounting and unmounting drives    
+- Managing free space
+- Allocating storage
+- Ensuring protection
+
+Disk performance significantly affects overall system performance.
+
+### Protection and Security
+
+### Protection:
+
+Controls access to system resources.
+
+### Security:
+
+Defends against attacks such as:
+
+- Malware
+- Denial of Service (DoS)
+- Unauthorized access
+
+### Key Mechanisms:
+
+- User IDs and Group IDs
+- Access control policies
+- Privilege escalation management
+
+### Virtualization
+
+Virtualization allows multiple operating systems to run on a single physical machine.
+
+### Concepts:
+
+- **Emulation**: Different CPU architecture (slow)
+- **Virtualization**: Same architecture (efficient)
+
+A **Virtual Machine Manager (VMM)** handles virtual environments.
+
+### Computing Environments
+
+Modern systems operate in various environments:
+
+- Traditional systems (PCs)
+- Mobile systems (smartphones)
+- Client-server systems
+- Peer-to-peer systems
+- Cloud computing environments
+- Real-time embedded systems
+
+Each environment has different OS requirements.
+
+### Cloud Computing
+
+Cloud computing provides computing resources over the internet.
+
+### Types:
+
+- Public cloud
+- Private cloud
+- Hybrid cloud
+
+### Service Models:
+
+- SaaS (Software as a Service)
+- PaaS (Platform as a Service)
+- IaaS (Infrastructure as a Service)
+
+Cloud systems rely heavily on virtualization.
+
+### Real-Time Embedded Systems
+
+These systems operate under strict time constraints.
+
+### Key Characteristics:
+
+- Time-critical operations
+- Limited functionality
+- Used in IoT, industrial systems, and automation
+
+Correctness depends on meeting timing deadlines.
+
+### Open Source Operating Systems
+
+Open-source OS provide access to source code.
+
+### Examples:
+
+- Linux
+- BSD UNIX
+
+### Benefits:
+
+- Transparency
+- Learning opportunity
+- Customization
+- Community-driven development
+
+---
