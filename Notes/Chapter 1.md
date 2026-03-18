@@ -102,7 +102,7 @@ Each I/O device is controlled by a **device controller**, which has:
 
 The OS interacts with devices through **device drivers**, which act as an abstraction layer.
 
-### I/O Methods:
+#### I/O Methods:
 
 1. **Programmed I/O (Polling)**  
     CPU repeatedly checks device status (inefficient)
