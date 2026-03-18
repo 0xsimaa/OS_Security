@@ -1,1 +1,2 @@
-# OS_Security
+# OS_Security Notes (Defensive Approach)
+
