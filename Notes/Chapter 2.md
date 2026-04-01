@@ -8,3 +8,6 @@
 
 In short, this chapter shows **how** the OS actually delivers the services we rely on every day and how it protects the system.
 
+### Operating System Services
+
+An operating system provides two main categories of services:
