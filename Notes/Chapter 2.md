@@ -21,3 +21,6 @@ These make the system convenient and easy to use:
 - **Program Execution** – Load and run programs
 - **I/O Operations** – Read/write to devices
 - **File-System Manipulation** – Create, delete, read, write files
+- **Communications** 
+	- Message passing 
+	- Shared memory
