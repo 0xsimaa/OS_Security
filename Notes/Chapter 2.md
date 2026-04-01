@@ -18,3 +18,4 @@ These make the system convenient and easy to use:
 - **User Interface** 
 	- Command Line Interface (CLI) / Command Interpreter 
 	- Graphical User Interface (GUI) - Batch interface (shell scripts)
+- **Program Execution** – Load and run programs
