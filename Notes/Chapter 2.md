@@ -24,3 +24,4 @@ These make the system convenient and easy to use:
 - **Communications** 
 	- Message passing 
 	- Shared memory
+- **Error Detection** – Handle and report hardware/software errors
