@@ -11,3 +11,10 @@ In short, this chapter shows **how** the OS actually delivers the services we re
 ### Operating System Services
 
 An operating system provides two main categories of services:
+
+#### 1. Services Helpful to the Users
+
+These make the system convenient and easy to use:
+- **User Interface** 
+	- Command Line Interface (CLI) / Command Interpreter 
+	- Graphical User Interface (GUI) - Batch interface (shell scripts)
