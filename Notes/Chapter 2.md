@@ -20,3 +20,4 @@ These make the system convenient and easy to use:
 	- Graphical User Interface (GUI) - Batch interface (shell scripts)
 - **Program Execution** – Load and run programs
 - **I/O Operations** – Read/write to devices
+- **File-System Manipulation** – Create, delete, read, write files
