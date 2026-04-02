@@ -29,3 +29,4 @@ These make the system convenient and easy to use:
 #### 2. Services for Efficient Operation (System Perspective)
 
 These ensure the OS runs smoothly and securely:
+- **Resource Allocation** – CPU, memory, I/O devices
