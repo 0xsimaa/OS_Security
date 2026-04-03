@@ -30,3 +30,5 @@ These make the system convenient and easy to use:
 
 These ensure the OS runs smoothly and securely:
 - **Resource Allocation** – CPU, memory, I/O devices
+- **Logging** – Record system usage and events
+- 
