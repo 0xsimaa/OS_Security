@@ -38,3 +38,9 @@ These ensure the OS runs smoothly and securely:
 ### User and Operating System Interface 
 
 The OS provides three main ways for users to interact with it:
+
+#### Command Line Interface (CLI)
+Allows direct command entry 
+- Can be implemented in the kernel or as a system program 
+- Multiple shells possible (e.g., Bourne Shell, Bash) 
+- Commands can be built-in or external programs
