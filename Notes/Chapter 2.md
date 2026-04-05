@@ -72,7 +72,7 @@ System calls are the **programming interface** to the OS services. They are the 
 
 **Standard API Example**: (`read()` in UNIX/Linux):
 
-**C code:**
+**C sample code:**
 ```c
 #include ssize_t read(int fd, void *buf, size_t count);
 ```
