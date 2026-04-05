@@ -58,3 +58,5 @@ Allows direct command entry
 - Designed for mobile/tablet devices 
 - Gesture-based interaction (no mouse) 
 - Virtual keyboard + voice commands
+
+### System Calls
