@@ -44,3 +44,5 @@ Allows direct command entry
 - Can be implemented in the kernel or as a system program 
 - Multiple shells possible (e.g., Bourne Shell, Bash) 
 - Commands can be built-in or external programs
+
+**Example**: Bourne Shell (`sh`) in action — shows commands like `uptime`, `df -h`, `ps aux`, etc.
