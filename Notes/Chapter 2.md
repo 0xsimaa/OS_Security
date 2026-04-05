@@ -46,3 +46,5 @@ Allows direct command entry
 - Commands can be built-in or external programs
 
 **Example**: Bourne Shell (`sh`) in action — shows commands like `uptime`, `df -h`, `ps aux`, etc.
+
+#### Graphical User Interface (GUI)
