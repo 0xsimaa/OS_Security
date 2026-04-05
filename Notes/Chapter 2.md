@@ -62,3 +62,8 @@ Allows direct command entry
 ### System Calls
 
 System calls are the **programming interface** to the OS services. They are the only way a user program can request services from the kernel.
+- User programs usually call them via high-level **APIs** (not directly) 
+- Common APIs: 
+	- **Win32 API** (Windows) 
+	- **POSIX API** (UNIX, Linux, macOS) 
+	- **Java API** (JVM)
