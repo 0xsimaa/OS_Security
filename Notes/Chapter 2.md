@@ -55,3 +55,6 @@ Allows direct command entry
 - Linux: CLI + optional GUIs (GNOME, KDE, etc.)
 
 #### Touchscreen Interface
+- Designed for mobile/tablet devices 
+- Gesture-based interaction (no mouse) 
+- Virtual keyboard + voice commands
