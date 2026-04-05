@@ -60,3 +60,5 @@ Allows direct command entry
 - Virtual keyboard + voice commands
 
 ### System Calls
+
+System calls are the **programming interface** to the OS services. They are the only way a user program can request services from the kernel.
