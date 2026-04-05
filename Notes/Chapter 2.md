@@ -34,3 +34,7 @@ These ensure the OS runs smoothly and securely:
 - **Protection and Security** – Control access to resources (this is the core focus of our **OS_Security** repo)
 
 **Key Diagram Insight**: All user programs and interfaces interact with the OS through **system calls**, which sit above the actual OS services layer.
+
+### User and Operating System Interface 
+
+The OS provides three main ways for users to interact with it:
