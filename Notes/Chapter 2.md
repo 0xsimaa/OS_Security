@@ -71,4 +71,6 @@ System calls are the **programming interface** to the OS services. They are the 
 **Example**: Copying a file requires a whole sequence of system calls (open, read, write, close, etc.).
 
 **Standard API Example**: (`read()` in UNIX/Linux):
-```c #include ssize_t read(int fd, void *buf, size_t count);
+```c
+#include ssize_t read(int fd, void *buf, size_t count);
+```
