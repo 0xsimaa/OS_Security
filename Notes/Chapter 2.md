@@ -69,3 +69,5 @@ System calls are the **programming interface** to the OS services. They are the 
 	- **Java API** (JVM)
 
 **Example**: Copying a file requires a whole sequence of system calls (open, read, write, close, etc.).
+
+**Standard API Example**
