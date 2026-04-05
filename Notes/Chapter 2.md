@@ -68,4 +68,4 @@ System calls are the **programming interface** to the OS services. They are the 
 	- **POSIX API** (UNIX, Linux, macOS) 
 	- **Java API** (JVM)
 
-**Example**: 
+**Example**: Copying a file requires a whole sequence of system calls (open, read, write, close, etc.).
