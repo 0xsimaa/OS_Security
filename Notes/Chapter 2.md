@@ -67,3 +67,5 @@ System calls are the **programming interface** to the OS services. They are the 
 	- **Win32 API** (Windows) 
 	- **POSIX API** (UNIX, Linux, macOS) 
 	- **Java API** (JVM)
+
+**Example**: 
