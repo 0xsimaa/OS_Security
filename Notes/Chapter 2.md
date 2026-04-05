@@ -53,3 +53,5 @@ Allows direct command entry
 - Most modern systems now offer **both** CLI and GUI 
 - Windows: GUI + “Command Prompt”/PowerShell - macOS: Aqua GUI + UNIX shells 
 - Linux: CLI + optional GUIs (GNOME, KDE, etc.)
+
+#### Touchscreen Interface
