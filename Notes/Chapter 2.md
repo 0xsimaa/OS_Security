@@ -48,3 +48,8 @@ Allows direct command entry
 **Example**: Bourne Shell (`sh`) in action — shows commands like `uptime`, `df -h`, `ps aux`, etc.
 
 #### Graphical User Interface (GUI)
+- User-friendly “desktop metaphor” 
+- History: Xerox PARC (1970) → Xerox Alto (1973) → Apple Macintosh (1980) → Microsoft Windows (1985) 
+- Most modern systems now offer **both** CLI and GUI 
+- Windows: GUI + “Command Prompt”/PowerShell - macOS: Aqua GUI + UNIX shells 
+- Linux: CLI + optional GUIs (GNOME, KDE, etc.)
