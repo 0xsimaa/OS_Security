@@ -74,5 +74,6 @@ System calls are the **programming interface** to the OS services. They are the 
 
 **C sample code:**
 ```c
-#include ssize_t read(int fd, void *buf, size_t count);
+#include <unistd.h>
+ ssize_t read(int fd, void *buf, size_t count);
 ```
