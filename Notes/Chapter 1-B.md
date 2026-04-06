@@ -1,4 +1,4 @@
-### Chapter 2: Operating System Services & Structure
+### Chapter 1-B: Operating System Services & Structure
 
 **Why Study Operating System Services & Structure?** Understanding how an operating system is built and what services it provides is critical, especially in cybersecurity.
 
