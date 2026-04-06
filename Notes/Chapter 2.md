@@ -77,3 +77,5 @@ System calls are the **programming interface** to the OS services. They are the 
 #include <unistd.h>
  ssize_t read(int fd, void *buf, size_t count);
 ```
+
+API → System Call → OS Relationship
