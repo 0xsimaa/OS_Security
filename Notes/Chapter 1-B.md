@@ -91,4 +91,4 @@ System calls are the **programming interface** to the OS services. They are the 
 #### System Call Parameter Passing (3 Methods)
 - **Pass parameters in registers** (fast but limited number)
 - **Parameters in a block/table in memory** (address passed in register) — used by Linux & Solaris
-- 
+- Parameters pushed onto the stack (most flexible)
