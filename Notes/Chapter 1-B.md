@@ -84,5 +84,6 @@ System calls are the **programming interface** to the OS services. They are the 
 - Kernel executes the actual system call and returns result
 
 #### System Call Implementation
-
+- The caller only follows the API format
+- 
 
