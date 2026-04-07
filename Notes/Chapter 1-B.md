@@ -96,3 +96,5 @@ System calls are the **programming interface** to the OS services. They are the 
 **Diagram Insight**: Block/Table method allows unlimited parameters.
 
 ### Types of System Calls
+
+System calls are grouped into six major categories:
