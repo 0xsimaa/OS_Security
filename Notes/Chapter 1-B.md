@@ -98,3 +98,12 @@ System calls are the **programming interface** to the OS services. They are the 
 ### Types of System Calls
 
 System calls are grouped into six major categories:
+
+| Category                    | Examples (Windows)             | Examples (Unix/Linux)   |
+| --------------------------- | ------------------------------ | ----------------------- |
+| **Process Control**         | CreateProcess(), ExitProcess() | fork(), exit(), wait()  |
+| **File Management**         | CreateFile(), ReadFile()       | open(), read(), write() |
+| **Device Management**       | SetConsoleMode()               | ioctl(), read()         |
+| **Information Maintenance** | GetCurrentProcessID()          | getpid(), alarm()       |
+| **Communications**          | CreatePipe(), MapViewOfFile()  | pipe(), mmap()          |
+| **Protection**              | SetFileSecurity()              | chmod(), chown()        |
