@@ -120,3 +120,10 @@ printf("Greetings");
 ### System Services / Utilities
 
 These are programs that provide a convenient environment for users and developers:
+- File manipulation
+- Status information
+- Programming language support
+- Program loading & execution
+- Communications
+- Background services
+- Application programs
