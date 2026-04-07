@@ -88,3 +88,4 @@ System calls are the **programming interface** to the OS services. They are the 
 - OS hides all internal details
 - Return status and values are passed back through the API
 
+#### System Call Parameter Passing (3 Methods)
