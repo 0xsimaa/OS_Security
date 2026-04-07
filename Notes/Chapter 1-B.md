@@ -116,3 +116,6 @@ printf("Greetings");
 ```
 
 → C library intercepts it → calls write() system call → kernel handles it.
+
+### System Services / Utilities
+
