@@ -78,7 +78,8 @@ System calls are the **programming interface** to the OS services. They are the 
  ssize_t read(int fd, void *buf, size_t count);
 ```
 
-API → System Call → OS Relationship
+**API → System Call → OS Relationship**
 - User application calls API function (e.g., open())
 - API forwards request to system call interface
 - Kernel executes the actual system call and returns result
+
