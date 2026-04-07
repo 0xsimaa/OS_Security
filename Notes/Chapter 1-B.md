@@ -109,3 +109,9 @@ System calls are grouped into six major categories:
 | **Protection**              | SetFileSecurity()              | chmod(), chown()        |
 
 ### Standard C Library Example
+
+```C
+printf("Greetings");
+
+```
+
