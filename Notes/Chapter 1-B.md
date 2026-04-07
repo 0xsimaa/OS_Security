@@ -89,3 +89,6 @@ System calls are the **programming interface** to the OS services. They are the 
 - Return status and values are passed back through the API
 
 #### System Call Parameter Passing (3 Methods)
+- **Pass parameters in registers** (fast but limited number)
+- **Parameters in a block/table in memory** (address passed in register) — used by Linux & Solaris
+- 
