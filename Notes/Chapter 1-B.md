@@ -85,5 +85,6 @@ System calls are the **programming interface** to the OS services. They are the 
 
 #### System Call Implementation
 - The caller only follows the API format
+- OS hides all internal details
 - 
 
