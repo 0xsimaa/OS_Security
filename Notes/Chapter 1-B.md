@@ -107,3 +107,5 @@ System calls are grouped into six major categories:
 | **Information Maintenance** | GetCurrentProcessID()          | getpid(), alarm()       |
 | **Communications**          | CreatePipe(), MapViewOfFile()  | pipe(), mmap()          |
 | **Protection**              | SetFileSecurity()              | chmod(), chown()        |
+
+### Standard C Library Example
