@@ -129,3 +129,6 @@ These are programs that provide a convenient environment for users and developer
 - Application programs
 
 Important: Most users only ever see system programs, not the raw system calls.
+
+### Linkers and Loaders
+
