@@ -142,3 +142,5 @@ Important: Most users only ever see system programs, not the raw system calls.
 
 **Role Diagram Summary:**
 > source.c → compiler → object.o → linker → executable → loader → program in memory
+
+### Why Applications Are Operating System Specific
