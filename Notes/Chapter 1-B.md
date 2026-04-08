@@ -127,3 +127,5 @@ These are programs that provide a convenient environment for users and developer
 - Communications
 - Background services
 - Application programs
+
+Important: Most users only ever see system programs, not the raw system calls.
