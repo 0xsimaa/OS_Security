@@ -147,3 +147,7 @@ Important: Most users only ever see system programs, not the raw system calls.
 
 - Each OS has its own system calls and file formats
 - Compiled binaries are usually **not portable**
+- Portable solutions:
+	- Interpreted languages (Python, Ruby)
+	- Virtual machines (Java)
+	- Re-compile on each OS (C/C++)
