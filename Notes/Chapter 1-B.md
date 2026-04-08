@@ -144,3 +144,6 @@ Important: Most users only ever see system programs, not the raw system calls.
 > source.c → compiler → object.o → linker → executable → loader → program in memory
 
 ### Why Applications Are Operating System Specific
+
+- Each OS has its own system calls and file formats
+- Compiled binaries are usually **not portable**
