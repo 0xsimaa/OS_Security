@@ -139,3 +139,6 @@ Important: Most users only ever see system programs, not the raw system calls.
 **Loader**:
 - Brings the executable into memory for execution
 - Modern OSes use **dynamic linking** (DLLs in Windows, shared libraries in Linux)
+
+**Role Diagram Summary:**
+> source.c → compiler → object.o → linker → executable → loader → program in memory
