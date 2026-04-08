@@ -132,3 +132,6 @@ Important: Most users only ever see system programs, not the raw system calls.
 
 ### Linkers and Loaders
 
+Linker:
+- Combines object files + libraries into a single executable
+- Resolves external references
