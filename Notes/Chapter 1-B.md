@@ -153,3 +153,5 @@ Important: Most users only ever see system programs, not the raw system calls.
 	- Re-compile on each OS (C/C++)
 
 ### Operating System Structure
+
+Modern OSes use different design strategies:
