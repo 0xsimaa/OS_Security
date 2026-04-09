@@ -155,3 +155,6 @@ Important: Most users only ever see system programs, not the raw system calls.
 ### Operating System Structure
 
 Modern OSes use different design strategies:
+- Entire OS runs in **kernel mode** as one large program
+- **Advantages**: Fast (direct function calls)
+- **Disadvantages**: Hard to maintain, one crash can bring down the whole system
