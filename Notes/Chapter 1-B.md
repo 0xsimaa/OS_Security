@@ -158,3 +158,7 @@ Modern OSes use different design strategies:
 - Entire OS runs in **kernel mode** as one large program
 - **Advantages**: Fast (direct function calls)
 - **Disadvantages**: Hard to maintain, one crash can bring down the whole system
+
+**Examples:**
+- Traditional UNIX (kernel contains everything: file system, scheduling, drivers)
+- MS-DOS (simple layered but still mostly monolithic)
