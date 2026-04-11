@@ -165,3 +165,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 
 **Layered Approach**
 - OS divided into layers (Layer 0 = hardware, Layer N = user interface)
+- Each layer uses only services of lower layers
