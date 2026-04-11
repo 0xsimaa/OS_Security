@@ -164,3 +164,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 - MS-DOS (simple layered but still mostly monolithic)
 
 **Layered Approach**
+- OS divided into layers (Layer 0 = hardware, Layer N = user interface)
