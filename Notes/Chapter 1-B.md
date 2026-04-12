@@ -185,3 +185,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 
 **Key Takeaways**
 - System calls are the **only** bridge between user mode and kernel mode.
+- Protection & Security services are built on top of system calls.
