@@ -168,3 +168,5 @@ Important: Most users only ever see system programs, not the raw system calls.
 - Each layer uses only services of lower layers
 - **Benefits**: Easy to construct and debug
 - **Drawbacks**: Less efficient due to many layer crossings
+
+**Microkernel**
