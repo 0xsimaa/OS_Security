@@ -179,3 +179,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 - Easier to extend and port
 
 **Drawbacks:**
+- Performance overhead (message passing)
