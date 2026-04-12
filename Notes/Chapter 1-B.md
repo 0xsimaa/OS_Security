@@ -184,3 +184,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 **Example**: Mach microkernel (used in macOS Darwin kernel).
 
 **Key Takeaways**
+- System calls are the **only** bridge between user mode and kernel mode.
