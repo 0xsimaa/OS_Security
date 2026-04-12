@@ -172,3 +172,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 **Microkernel**
 - Moves most services (file system, device drivers) to **user space**
 - Kernel only handles: inter-process communication, memory management, CPU scheduling
+- Communication via **message passing**
