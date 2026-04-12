@@ -182,3 +182,5 @@ Important: Most users only ever see system programs, not the raw system calls.
 - Performance overhead (message passing)
 
 **Example**: Mach microkernel (used in macOS Darwin kernel).
+
+**Key Takeaways**
