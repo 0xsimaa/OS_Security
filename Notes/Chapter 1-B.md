@@ -175,3 +175,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 - Communication via **message passing**
 
 **Benefits**:
+- More reliable and secure
