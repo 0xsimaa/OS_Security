@@ -170,3 +170,4 @@ Important: Most users only ever see system programs, not the raw system calls.
 - **Drawbacks**: Less efficient due to many layer crossings
 
 **Microkernel**
+- Moves most services (file system, device drivers) to **user space**
