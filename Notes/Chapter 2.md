@@ -13,3 +13,4 @@
 | **Data**  | Global variables                                                        |
 | **Heap**  | Dynamically allocated memory at runtime                                 |
 | **Stack** | Temporary data (function parameters, local variables, return addresses) |
+- The **program counter (PC)** and CPU registers represent the **current state** of the process.
