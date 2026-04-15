@@ -7,3 +7,9 @@
 - Multiple processes can run **concurrently** on a system.
 
 #### Parts of a Process in Memory
+| Section   | Contains                                                                |
+| --------- | ----------------------------------------------------------------------- |
+| **Text**  | Program code (executable instructions)                                  |
+| **Data**  | Global variables                                                        |
+| **Heap**  | Dynamically allocated memory at runtime                                 |
+| **Stack** | Temporary data (function parameters, local variables, return addresses) |
