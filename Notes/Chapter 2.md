@@ -16,3 +16,4 @@
 - The **program counter (PC)** and CPU registers represent the **current state** of the process.
 
 #### Process States
+As a process executes, it moves through the following states:
