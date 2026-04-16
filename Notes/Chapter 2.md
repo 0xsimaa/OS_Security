@@ -27,3 +27,4 @@ As a process executes, it moves through the following states:
 The OS maintains a **Process Control Block (PCB)** (also called Task Control Block) for every process.
 
 **Contents of PCB:**
+- Process state (New, Ready, Running, etc.)
