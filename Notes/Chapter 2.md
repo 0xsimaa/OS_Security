@@ -24,3 +24,4 @@ As a process executes, it moves through the following states:
 - **Terminated** → Execution finished
 
 #### Process Control Block (PCB)
+The OS maintains a **Process Control Block (PCB)** (also called Task Control Block) for every process.
