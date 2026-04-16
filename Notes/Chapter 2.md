@@ -20,3 +20,4 @@ As a process executes, it moves through the following states:
 - **New** → Process is being created
 - **Ready** → Waiting to be assigned to a processor
 - **Running** → Instructions are being executed
+- **Waiting** → Waiting for an event (I/O completion, signal, etc.)
