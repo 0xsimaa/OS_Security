@@ -33,3 +33,6 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - CPU scheduling information (priority, scheduling queue pointers)
 - Memory-management information
 - Accounting information (CPU time used, time limits)
+- I/O status information (open files, devices allocated)
+
+**Linux Representation:** task_struct (C structure)
