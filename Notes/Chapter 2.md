@@ -30,3 +30,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - Process state (New, Ready, Running, etc.)
 - Program counter
 - CPU registers
+- CPU scheduling information (priority, scheduling queue pointers)
