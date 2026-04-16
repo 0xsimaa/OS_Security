@@ -31,3 +31,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - Program counter
 - CPU registers
 - CPU scheduling information (priority, scheduling queue pointers)
+- Memory-management information
