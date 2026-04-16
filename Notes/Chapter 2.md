@@ -28,3 +28,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 
 **Contents of PCB:**
 - Process state (New, Ready, Running, etc.)
+- Program counter
