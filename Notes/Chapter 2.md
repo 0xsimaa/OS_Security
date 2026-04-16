@@ -18,3 +18,4 @@
 #### Process States
 As a process executes, it moves through the following states:
 - **New** → Process is being created
+- **Ready** → Waiting to be assigned to a processor
