@@ -40,3 +40,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 ### Process Scheduling
 - **Scheduler** selects which process runs next on the CPU.
 - Goal: Maximize CPU utilization and minimize response time.
+
+**Scheduling Queues**
