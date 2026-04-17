@@ -55,3 +55,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 | **Medium-term**                | Swapping (remove/re-introduce processes) | As needed       | Reduces degree of multiprogramming  |
 - **I/O-bound** processes: Many short CPU bursts, spend more time doing I/O.
 - **CPU-bound** processes: Few very long CPU bursts.
+
+**Context Switch**
