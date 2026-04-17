@@ -47,3 +47,9 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - Processes continuously migrate between queues
 
 **Types of Schedulers**
+
+| Scheduler                      | Purpose                                  | Frequency       | Key Responsibility                  |
+| ------------------------------ | ---------------------------------------- | --------------- | ----------------------------------- |
+| **Short-term** (CPU Scheduler) | Selects next process to run on CPU       | Milliseconds    | Fast, invoked very frequently       |
+| **Long-term** (Job Scheduler)  | Decides which processes enter the system | Seconds/Minutes | Controls degree of multiprogramming |
+| **Medium-term**                | Swapping (remove/re-introduce processes) | As needed       | Reduces degree of multiprogramming  |
