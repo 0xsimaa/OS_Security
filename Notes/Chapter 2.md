@@ -42,3 +42,6 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - Goal: Maximize CPU utilization and minimize response time.
 
 **Scheduling Queues**
+- **Ready Queue** – Processes in memory, ready to run
+- **Wait Queue** (Device/ Event Queue) – Processes waiting for I/O or events
+- Processes continuously migrate between queues
