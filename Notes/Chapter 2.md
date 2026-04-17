@@ -53,3 +53,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 | **Short-term** (CPU Scheduler) | Selects next process to run on CPU       | Milliseconds    | Fast, invoked very frequently       |
 | **Long-term** (Job Scheduler)  | Decides which processes enter the system | Seconds/Minutes | Controls degree of multiprogramming |
 | **Medium-term**                | Swapping (remove/re-introduce processes) | As needed       | Reduces degree of multiprogramming  |
+- **I/O-bound** processes: Many short CPU bursts, spend more time doing I/O.
+- **CPU-bound** processes: Few very long CPU bursts.
