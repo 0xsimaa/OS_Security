@@ -36,3 +36,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - I/O status information (open files, devices allocated)
 
 **Linux Representation:** *task_struct* (C structure)
+
+### Process Scheduling
