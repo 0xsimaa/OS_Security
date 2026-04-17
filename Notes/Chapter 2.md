@@ -57,3 +57,7 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - **CPU-bound** processes: Few very long CPU bursts.
 
 **Context Switch**
+- Occurs when CPU switches from one process to another.
+- OS saves the **context** (PCB) of the old process and loads the new one.
+- Pure **overhead** – no useful work during switch.
+- Time depends on hardware support.
