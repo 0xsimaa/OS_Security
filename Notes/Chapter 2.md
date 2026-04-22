@@ -80,3 +80,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 	- Child exceeded resources.
 	- Task is no longer needed.
 	- Parent is exiting (cascading termination).
+
+**Special Cases:**
