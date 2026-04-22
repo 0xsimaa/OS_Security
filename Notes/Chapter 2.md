@@ -74,3 +74,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - Execution: concurrent or parent waits.
 
 #### Process Termination
+- Normal: Process calls exit() (returns status to parent).
