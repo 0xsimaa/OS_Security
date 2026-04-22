@@ -76,3 +76,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 #### Process Termination
 - Normal: Process calls exit() (returns status to parent).
 - Abnormal: abort() by parent or user (kill).
+- Reasons for parent to terminate child:
