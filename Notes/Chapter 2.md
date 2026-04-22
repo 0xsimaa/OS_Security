@@ -61,3 +61,8 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - OS saves the **context** (PCB) of the old process and loads the new one.
 - Pure **overhead** – no useful work during switch.
 - Time depends on hardware support.
+
+### Operations on Processes
+
+#### Process Creation
+- **Parent** process creates **child** processes → forms a **process tree**.
