@@ -72,3 +72,5 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 	- wait() → parent waits for child to terminate.
 - Resource sharing options: share all / share subset / share nothing.
 - Execution: concurrent or parent waits.
+
+#### Process Termination
