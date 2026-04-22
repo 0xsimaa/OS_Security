@@ -68,3 +68,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 - **Parent** process creates **child** processes → forms a **process tree**.
 - **UNIX/Linux:**
 	- fork() → creates a duplicate child process.
+	- exec() → replaces child’s memory space with a new program.
