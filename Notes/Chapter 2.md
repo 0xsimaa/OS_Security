@@ -83,3 +83,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 
 **Special Cases:**
 - **Zombie** → Child terminated but parent hasn’t called wait().
+- **Orphan** → Parent terminated without calling wait().
