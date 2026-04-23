@@ -87,3 +87,4 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 
 ### Inter-Process Communication (IPC)
 
+Processes can be **independent** or **cooperating**. Cooperating processes need **IPC**.
