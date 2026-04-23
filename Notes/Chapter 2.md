@@ -93,6 +93,12 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 **Shared Memory**
 
-- Fastest method.
-- OS creates shared region; processes handle synchronization themselves.
-- Example: Producer-Consumer problem (bounded/unbounded buffer).
+	- Fastest method.
+	- OS creates shared region; processes handle synchronization themselves.
+	- Example: Producer-Consumer problem (bounded/unbounded buffer).
+
+**Message Passing**
+
+    - Processes communicate by sending/receiving messages.
+    - No shared memory required.
+    - Two operations: send(message) and receive(message).
