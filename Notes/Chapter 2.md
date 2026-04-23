@@ -107,3 +107,6 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 - **Direct** → Processes name each other explicitly (send(P, msg)).
 - **Indirect** → Messages go through **mailboxes/ports** (unique ID).
+
+#### Synchronization & Buffering
+
