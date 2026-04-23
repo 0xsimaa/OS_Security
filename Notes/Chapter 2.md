@@ -102,3 +102,6 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
     - Processes communicate by sending/receiving messages.
     - No shared memory required.
     - Two operations: send(message) and receive(message).
+
+#### Message Passing Communication
+
