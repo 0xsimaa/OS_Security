@@ -89,4 +89,10 @@ The OS maintains a **Process Control Block (PCB)** (also called Task Control Blo
 
 Processes can be **independent** or **cooperating**. Cooperating processes need **IPC**.
 
-**Two Models of IPC**
+#### Two Models of IPC
+
+**Shared Memory**
+
+- Fastest method.
+- OS creates shared region; processes handle synchronization themselves.
+- Example: Producer-Consumer problem (bounded/unbounded buffer).
