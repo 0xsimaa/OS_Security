@@ -121,3 +121,5 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 ### Examples of IPC Systems
 
+#### POSIX Shared Memory
+
