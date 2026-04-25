@@ -110,11 +110,14 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 #### Synchronization & Buffering
 
-|Type|Description|
-|---|---|
-|**Blocking**|Synchronous (sender/receiver wait)|
-|**Non-blocking**|Asynchronous|
-|**Rendezvous**|Both send & receive are blocking|
-|**Zero capacity**|No buffering → rendezvous|
-|**Bounded**|Fixed buffer size|
-|**Unbounded**|Infinite buffer (sender never waits)|
+| Type              | Description                          |
+| ----------------- | ------------------------------------ |
+| **Blocking**      | Synchronous (sender/receiver wait)   |
+| **Non-blocking**  | Asynchronous                         |
+| **Rendezvous**    | Both send & receive are blocking     |
+| **Zero capacity** | No buffering → rendezvous            |
+| **Bounded**       | Fixed buffer size                    |
+| **Unbounded**     | Infinite buffer (sender never waits) |
+
+### Examples of IPC Systems
+
