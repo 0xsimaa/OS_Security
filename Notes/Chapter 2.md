@@ -126,3 +126,5 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 #### Windows
 - Uses **ALPC** (Advanced Local Procedure Call) with **ports** (connection port + communication port).
+
+**Pipes**
