@@ -128,3 +128,8 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - Uses **ALPC** (Advanced Local Procedure Call) with **ports** (connection port + communication port).
 
 **Pipes**
+
+|Type|Direction|Relationship|Network?|Notes|
+|---|---|---|---|---|
+|**Ordinary**|Unidirectional|Parent–Child only|No|Also called anonymous pipes|
+|**Named**|Bidirectional|Any processes|Yes|Persist in filesystem (FIFO)|
