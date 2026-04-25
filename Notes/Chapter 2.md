@@ -125,3 +125,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - Uses shm_open(), mmap(), etc. (code example in slides).
 
 #### Windows
+- Uses **ALPC** (Advanced Local Procedure Call) with **ports** (connection port + communication port).
