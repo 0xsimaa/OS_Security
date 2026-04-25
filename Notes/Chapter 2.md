@@ -123,3 +123,5 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 #### POSIX Shared Memory
 - Uses shm_open(), mmap(), etc. (code example in slides).
+
+#### Windows
