@@ -149,3 +149,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - **Marshalling**: Converting parameters for transmission.
 - **External Data Representation (XDR)** handles endianness.
 - Matchmaker (port mapper) helps client locate service.
+- More failure scenarios than local calls.
