@@ -150,3 +150,5 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - **External Data Representation (XDR)** handles endianness.
 - Matchmaker (port mapper) helps client locate service.
 - More failure scenarios than local calls.
+
+**Key Takeaways**
