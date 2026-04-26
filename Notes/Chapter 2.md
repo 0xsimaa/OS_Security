@@ -147,3 +147,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - Abstracts procedure calls across network.
 - **Stubs**: Client-side proxy + Server-side stub.
 - **Marshalling**: Converting parameters for transmission.
+- **External Data Representation (XDR)** handles endianness.
