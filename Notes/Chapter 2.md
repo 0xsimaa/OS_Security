@@ -137,3 +137,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 ### Communication in Client-Server Systems
 
 **Sockets**
+- Endpoint for communication = **IP address + port**.
