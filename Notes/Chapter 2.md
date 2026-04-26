@@ -153,3 +153,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 **Key Takeaways**
 - A **process** is more than just a program, it includes memory layout, state, and PCB.
+- **Scheduling** and **context switching** are fundamental to multitasking.
