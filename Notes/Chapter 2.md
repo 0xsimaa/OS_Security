@@ -140,3 +140,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - Endpoint for communication = **IP address + port**.
 - Example: 161.25.19.8:1625
 - Well-known ports (< 1024) for standard services.
+- Loopback: 127.0.0.1
