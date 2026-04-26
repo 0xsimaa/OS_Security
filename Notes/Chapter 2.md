@@ -152,3 +152,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - More failure scenarios than local calls.
 
 **Key Takeaways**
+- A **process** is more than just a program, it includes memory layout, state, and PCB.
