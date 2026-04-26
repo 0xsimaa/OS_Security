@@ -155,3 +155,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - A **process** is more than just a program, it includes memory layout, state, and PCB.
 - **Scheduling** and **context switching** are fundamental to multitasking.
 - **IPC** enables cooperation between processes (shared memory = fast, message passing = safer).
+- Modern systems (Chrome, Linux, Windows) use a combination of these mechanisms.
