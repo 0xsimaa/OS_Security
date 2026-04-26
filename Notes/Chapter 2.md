@@ -129,7 +129,10 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 **Pipes**
 
-|Type|Direction|Relationship|Network?|Notes|
-|---|---|---|---|---|
-|**Ordinary**|Unidirectional|Parent–Child only|No|Also called anonymous pipes|
-|**Named**|Bidirectional|Any processes|Yes|Persist in filesystem (FIFO)|
+| Type         | Direction      | Relationship      | Network? | Notes                        |
+| ------------ | -------------- | ----------------- | -------- | ---------------------------- |
+| **Ordinary** | Unidirectional | Parent–Child only | No       | Also called anonymous pipes  |
+| **Named**    | Bidirectional  | Any processes     | Yes      | Persist in filesystem (FIFO) |
+
+### Communication in Client-Server Systems
+
