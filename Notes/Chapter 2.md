@@ -138,3 +138,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 
 **Sockets**
 - Endpoint for communication = **IP address + port**.
+- Example: 161.25.19.8:1625
