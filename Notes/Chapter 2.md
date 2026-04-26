@@ -144,3 +144,5 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - Java example provided in slides (TCP/UDP/MulticastSocket).
 
 #### Remote Procedure Calls (RPC)
+- Abstracts procedure calls across network.
+- **Stubs**: Client-side proxy + Server-side stub.
