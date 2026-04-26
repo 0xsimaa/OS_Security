@@ -148,3 +148,4 @@ Processes can be **independent** or **cooperating**. Cooperating processes need 
 - **Stubs**: Client-side proxy + Server-side stub.
 - **Marshalling**: Converting parameters for transmission.
 - **External Data Representation (XDR)** handles endianness.
+- Matchmaker (port mapper) helps client locate service.
