@@ -9,3 +9,5 @@
 - Most modern applications are **multithreaded**.
 
 ### Motivation for Threads
+
+- Multiple tasks within an application can run as separate threads:
