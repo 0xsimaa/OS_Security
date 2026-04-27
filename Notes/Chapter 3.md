@@ -15,3 +15,4 @@
 	- Fetch data
 	- Spell checking
 	- Answer network requests
+- **Process creation** is heavy-weight; **thread creation** is light-weight.
