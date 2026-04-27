@@ -13,3 +13,4 @@
 - Multiple tasks within an application can run as separate threads:
 	- Update display
 	- Fetch data
+	- Spell checking
