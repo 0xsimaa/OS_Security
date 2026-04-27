@@ -6,3 +6,4 @@
 	- “A dispatchable unit of work” (Stallings)
 	- “An independent flow of control” (IBM)
 - Previously, a **process** meant a single thread of execution.
+- Most modern applications are **multithreaded**.
