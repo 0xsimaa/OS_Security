@@ -2,3 +2,4 @@
 ### Thread Definition
 
 -  **Thread** = Basic unit of CPU utilization
+	- - “The basic unit of CPU utilization” (Silberschatz)
