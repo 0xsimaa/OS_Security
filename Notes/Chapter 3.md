@@ -14,3 +14,4 @@
 	- Update display
 	- Fetch data
 	- Spell checking
+	- Answer network requests
