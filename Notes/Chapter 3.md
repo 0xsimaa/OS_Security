@@ -32,3 +32,4 @@
 #### Windows Threads
 - One-to-one, kernel-level
 - Each thread has: thread ID, register set, user/kernel stacks, private storage
+- Data structures: ETHREAD → KTHREAD → TEB
