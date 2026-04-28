@@ -28,3 +28,5 @@
 | **Memory Layout**        | One stack + heap        | Multiple stacks (one per thread) + shared heap |
 
 ### Multithreaded Server Architecture
+
+- Client sends request → Server creates a new thread to handle it → Server resumes listening for more requests.
