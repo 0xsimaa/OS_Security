@@ -43,3 +43,4 @@
 
 ### Multicore Programming Challenges
 
+- Dividing activities into parallel tasks
