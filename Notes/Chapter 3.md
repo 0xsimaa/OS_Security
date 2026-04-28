@@ -34,3 +34,9 @@
 
 ### Multithreading Benefits
 
+| Benefit              | Description                                                   |
+| -------------------- | ------------------------------------------------------------- |
+| **Responsiveness**   | Application continues even if part is blocked (especially UI) |
+| **Resource Sharing** | Threads share address space → easier data sharing than IPC    |
+| **Economy**          | Cheaper/faster to create and switch threads vs. processes     |
+| **Scalability**      | Takes full advantage of multicore systems                     |
