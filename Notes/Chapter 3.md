@@ -35,3 +35,4 @@
 - Data structures: ETHREAD → KTHREAD → TEB
 
 #### Linux Threads
+- Called **tasks** (not threads)
