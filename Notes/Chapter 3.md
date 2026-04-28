@@ -63,3 +63,6 @@
 
 - **User threads**: Managed by user-level thread library (in user space)
 - **Kernel threads**: Supported and managed directly by the OS kernel
+
+### Multithreading Models
+
