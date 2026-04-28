@@ -36,3 +36,4 @@
 
 #### Linux Threads
 - Called **tasks** (not threads)
+- Created via clone() system call
