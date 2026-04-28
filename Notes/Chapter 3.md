@@ -45,3 +45,4 @@
 
 - Dividing activities into parallel tasks
 - **Balance**; equal work distribution
+- **Data splitting**; divide data among tasks
