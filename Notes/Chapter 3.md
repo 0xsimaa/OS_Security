@@ -53,3 +53,6 @@
 
 - **Concurrency**: Multiple tasks make progress (even on single core via time-sharing)
 - **Parallelism**: Multiple tasks execute **simultaneously** (requires multiple cores)
+
+**Types of Parallelism**
+
