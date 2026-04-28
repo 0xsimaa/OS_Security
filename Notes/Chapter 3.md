@@ -21,3 +21,8 @@
 
 ### Single vs. Multithreaded Processes
 
+|Aspect|Single-Threaded Process|Multithreaded Process|
+|---|---|---|
+|**Code, Data, Files**|Shared|Shared|
+|**Registers, PC, Stack**|One set per process|Separate set **per thread**|
+|**Memory Layout**|One stack + heap|Multiple stacks (one per thread) + shared heap|
