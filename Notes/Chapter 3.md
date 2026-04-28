@@ -17,3 +17,4 @@
 	- Answer network requests
 - **Process creation** is heavy-weight; **thread creation** is light-weight.
 - Threads simplify code and improve efficiency.
+- Kernels themselves are generally multithreaded.
