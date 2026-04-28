@@ -44,3 +44,4 @@
 ### Multicore Programming Challenges
 
 - Dividing activities into parallel tasks
+- **Balance**; equal work distribution
