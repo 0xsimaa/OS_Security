@@ -27,15 +27,4 @@
 | **Registers, PC, Stack** | One set per process     | Separate set **per thread**                    |
 | **Memory Layout**        | One stack + heap        | Multiple stacks (one per thread) + shared heap |
 
-### Operating System Examples
-
-#### Windows Threads
-- One-to-one, kernel-level
-- Each thread has: thread ID, register set, user/kernel stacks, private storage
-- Data structures: ETHREAD → KTHREAD → TEB
-
-#### Linux Threads
-- Called **tasks** (not threads)
-- Created via *clone()* system call
-- Flags control sharing (CLONE_VM, CLONE_FILES, etc.)
-- *struct task_struct* points to shared or unique process data
+### Multithreaded Server Architecture
