@@ -37,3 +37,4 @@
 #### Linux Threads
 - Called **tasks** (not threads)
 - Created via clone() system call
+- Flags control sharing (CLONE_VM, CLONE_FILES, etc.)
