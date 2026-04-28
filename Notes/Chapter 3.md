@@ -46,3 +46,5 @@
 - Dividing activities into parallel tasks
 - **Balance**; equal work distribution
 - **Data splitting**; divide data among tasks
+- **Data dependency** – synchronization (recall producer-consumer)
+- **Testing & debugging** is much harder in concurrent/parallel code
