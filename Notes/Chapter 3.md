@@ -28,3 +28,5 @@
 | **Memory Layout**        | One stack + heap        | Multiple stacks (one per thread) + shared heap |
 
 ### Operating System Examples
+
+#### Windows Threads
