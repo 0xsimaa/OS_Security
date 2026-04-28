@@ -31,3 +31,6 @@
 
 - Client sends request → Server creates a new thread to handle it → Server resumes listening for more requests.
 - Improves responsiveness and scalability.
+
+### Multithreading Benefits
+
