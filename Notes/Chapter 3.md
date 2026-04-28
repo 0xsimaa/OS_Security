@@ -58,3 +58,6 @@
 
 - **Data Parallelism** (SIMD): Same operation on different data subsets
 - **Task Parallelism** (MISD): Different operations on (possibly same) data
+
+### User Threads vs. Kernel Threads
+
