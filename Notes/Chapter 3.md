@@ -61,3 +61,4 @@
 
 ### User Threads vs. Kernel Threads
 
+- **User threads**: Managed by user-level thread library (in user space)
