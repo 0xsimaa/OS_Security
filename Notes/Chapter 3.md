@@ -98,3 +98,15 @@ pthread_join(tid, NULL);                       // wait
 HANDLE ThreadHandle = CreateThread(NULL, 0, Summation, &Param, 0, &ThreadId);
 WaitForSingleObject(ThreadHandle, INFINITE);
 ```
+
+**Java Threads (Runnable interface)**
+
+```Java
+class Task implements Runnable {
+    public void run() { /* code */ }
+}
+Thread worker = new Thread(new Task());
+worker.start();
+worker.join();
+```
+
