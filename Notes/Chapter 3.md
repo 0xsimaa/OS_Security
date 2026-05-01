@@ -78,3 +78,4 @@
 A thread library provides an API for creating and managing threads.
 
 #### Major Libraries
+- **POSIX Pthreads** (most UNIX/Linux/Mac)
