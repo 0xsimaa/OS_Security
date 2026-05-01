@@ -66,9 +66,12 @@
 
 ### Multithreading Models
 
-|Model|Mapping|Pros|Cons|Used Today?|
-|---|---|---|---|---|
-|**Many-to-One**|Many user → 1 kernel thread|Simple, low overhead|One thread blocks → all block; no true parallelism|Rarely|
-|**One-to-One**|Each user thread → 1 kernel thread|True concurrency, better parallelism|Higher overhead; limited # of threads|Very common|
-|**Many-to-Many**|Many user ↔ smaller # of kernel|Best of both worlds|Complex to implement|Some systems|
-|**Two-level**|Many-to-Many + optional binding|Flexible|Still complex|Common|
+| Model            | Mapping                            | Pros                                 | Cons                                               | Used Today?  |
+| ---------------- | ---------------------------------- | ------------------------------------ | -------------------------------------------------- | ------------ |
+| **Many-to-One**  | Many user → 1 kernel thread        | Simple, low overhead                 | One thread blocks → all block; no true parallelism | Rarely       |
+| **One-to-One**   | Each user thread → 1 kernel thread | True concurrency, better parallelism | Higher overhead; limited # of threads              | Very common  |
+| **Many-to-Many** | Many user ↔ smaller # of kernel    | Best of both worlds                  | Complex to implement                               | Some systems |
+| **Two-level**    | Many-to-Many + optional binding    | Flexible                             | Still complex                                      | Common       |
+
+### Thread Libraries
+
