@@ -81,3 +81,13 @@ A thread library provides an API for creating and managing threads.
 - **POSIX Pthreads** (most UNIX/Linux/Mac)
 - **Windows Threads**
 - **Java Threads** (managed by JVM)
+
+**Pthreads Example**
+
+```C
+#include <pthread.h>
+pthread_t tid;
+pthread_create(&tid, NULL, runner, argv[1]);   // create
+pthread_join(tid, NULL);                       // wait
+
+```
