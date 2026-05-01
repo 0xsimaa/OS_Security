@@ -91,3 +91,10 @@ pthread_create(&tid, NULL, runner, argv[1]);   // create
 pthread_join(tid, NULL);                       // wait
 
 ```
+
+**Windows Threads Example**
+
+```C
+HANDLE ThreadHandle = CreateThread(NULL, 0, Summation, &Param, 0, &ThreadId);
+WaitForSingleObject(ThreadHandle, INFINITE);
+```
