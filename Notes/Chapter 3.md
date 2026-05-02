@@ -118,3 +118,6 @@ Programmer specifies **tasks**, not threads. Compiler/runtime library handles th
 - **Thread Pools**
 	- Pre-create pool of threads that wait for work.
 	- Faster than creating new threads; limits total threads.
+- **Fork-Join Parallelism**
+	- Main thread forks subtasks -> subtasks run in parallel -> join results.
+	- Recursive divide-and-conquer style.
