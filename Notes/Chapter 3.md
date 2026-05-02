@@ -110,3 +110,5 @@ worker.start();
 worker.join();
 ```
 
+### Implicit Threading
+
