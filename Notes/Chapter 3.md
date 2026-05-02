@@ -113,3 +113,5 @@ worker.join();
 ### Implicit Threading
 
 Programmer specifies **tasks**, not threads. Compiler/runtime library handles threading.
+
+#### Four Popular Approaches
