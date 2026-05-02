@@ -127,4 +127,6 @@ Programmer specifies **tasks**, not threads. Compiler/runtime library handles th
 #pragma omp parallel for
 for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 ```
+
 - Grand Central Dispatch (Apple – macOS/iOS)
+	- Uses **blocks** (^{}) placed in dispatch queues.
