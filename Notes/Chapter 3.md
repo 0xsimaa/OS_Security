@@ -130,3 +130,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 
 - Grand Central Dispatch (Apple – macOS/iOS)
 	- Uses **blocks** (^{}) placed in dispatch queues.
+	- Runtime manages thread pool automatically.
