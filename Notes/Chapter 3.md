@@ -116,3 +116,4 @@ Programmer specifies **tasks**, not threads. Compiler/runtime library handles th
 
 #### Four Popular Approaches
 - **Thread Pools**
+	- Pre-create pool of threads that wait for work.
