@@ -121,3 +121,9 @@ Programmer specifies **tasks**, not threads. Compiler/runtime library handles th
 - **Fork-Join Parallelism**
 	- Main thread forks subtasks -> subtasks run in parallel -> join results.
 	- Recursive divide-and-conquer style.
+- **OpenMP** (C/C++/Fortran)
+
+```C
+#pragma omp parallel for
+for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
+```
