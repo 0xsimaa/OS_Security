@@ -147,3 +147,5 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 - One-to-one, kernel-level
 - Each thread has: thread ID, register set, user/kernel stacks, private storage
 - Data structures: ETHREAD → KTHREAD → TEB
+
+#### Linux Threads
