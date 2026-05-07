@@ -145,3 +145,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 ### Operating System Examples
 #### Windows Threads
 - One-to-one, kernel-level
+- Each thread has: thread ID, register set, user/kernel stacks, private storage
