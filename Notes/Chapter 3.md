@@ -149,3 +149,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 - Data structures: ETHREAD → KTHREAD → TEB
 
 #### Linux Threads
+- Called **tasks** (not threads)
