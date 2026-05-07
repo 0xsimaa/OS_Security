@@ -143,3 +143,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 | **Scheduler Activations**      | Kernel → user library upcalls to maintain correct # of kernel threads              |
 
 ### Operating System Examples
+#### Windows Threads
