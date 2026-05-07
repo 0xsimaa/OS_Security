@@ -152,3 +152,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 - Called **tasks** (not threads)
 - Created via ***clone()*** system call
 - Flags control sharing (CLONE_VM, CLONE_FILES, etc.)
+- ***struct task_struct*** points to shared or unique process data
