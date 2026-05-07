@@ -134,3 +134,10 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 
 ### Threading Issues
 
+|Issue|Description|
+|---|---|
+|**fork() / exec() Semantics**|`fork()` may duplicate only calling thread or all threads (UNIX variations)|
+|**Signal Handling**|Where to deliver signal in multithreaded process? (per-thread, every thread, etc.)|
+|**Thread Cancellation**|Asynchronous (immediate) vs. Deferred (check at cancellation points)|
+|**Thread-Local Storage (TLS)**|Each thread gets its own copy of data (useful with thread pools)|
+|**Scheduler Activations**|Kernel → user library upcalls to maintain correct # of kernel threads|
