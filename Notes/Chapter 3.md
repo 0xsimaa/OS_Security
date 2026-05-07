@@ -150,4 +150,4 @@ for (i = 0; i < N; i++) { c[i] = a[i] + b[i]; }
 
 #### Linux Threads
 - Called **tasks** (not threads)
-- Created via clone() system call
+- Created via ***clone()*** system call
